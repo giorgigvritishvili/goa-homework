@@ -1,0 +1,47 @@
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .circle {
+    text-align: center;
+  }
+  
+  .circular-chart {
+    width: 100px;
+    height: 100px;
+    transform: rotate(-90deg);
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+  }
+  
+  .circle-progress {
+    fill: none;
+    stroke: #00acc1;
+    stroke-width: 3.8;
+    stroke-linecap: round;
+    transition: stroke-dasharray 0.6s ease;
+  }
+  
+  .percentage {
+    fill: #333;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+    dominant-baseline: central;
+    transform: rotate(90deg);
+    transform-origin: center;
+  }
+  
+  .label {
+    margin-top: 0.5rem;
+    font-weight: bold;
+  }
+  

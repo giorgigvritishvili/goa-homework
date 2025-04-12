@@ -1,0 +1,51 @@
+
+
+
+.about {
+    background-color: #f9fafb;  
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+    width: 90%;
+  }
+  
+  @media (max-width: 768px) {
+    .about h2 {
+      font-size: 1.5rem;
+    }
+    
+    .about p {
+      font-size: 1rem;
+    }
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    color: #6366f1; 
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 1.125rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .about .timeline {
+    margin-top: 40px;
+  }
+  
+  .about .timeline-title {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
