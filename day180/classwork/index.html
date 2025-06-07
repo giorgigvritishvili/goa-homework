@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>რიცხვების შეკრება</title>
+  
+</head>
+<body>
+
+  <h2>შეიყვანეთ ორი რიცხვი</h2>
+  
+  <input type="number" id="num1" >
+  <input type="number" id="num2">
+  <button onclick="sumNumbers()">შეკრება</button>
+  
+  <div id="result"></div>
+
+  <script>
+    function sumNumbers() {
+      const n1 = parseFloat(document.getElementById("num1").value);
+      const n2 = parseFloat(document.getElementById("num2").value);
+
+      
+        const sum = n1 + n2;
+        document.getElementById("result").textContent = + sum;
+      
+    }
+  </script>
+
+</body>
+</html>
